@@ -1,0 +1,580 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/residence.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+
+    <div class="header">
+        <h1>One Avighna Park</h1>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="Building.html">Home</a>
+        <a href="residence.html">Residences</a>
+        <a href="registration.html">Buy/Rent</a>
+        <a class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+    </div>
+
+    <div class="rooms">
+        <h1 style="color:black;text-align:center;">Buy</h1>
+        <div class="block1">
+            <div class="img"><img src="img/3-bedroom-layout.png" width="185" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">3 BHK Apartment<br><h3>Price: 3.5 crore</h3></p>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/apartment-layouts.jpeg" width="185"></div>
+            <div class="details">
+                <p style="font-family:Arial;">4 BHK Apartment<br><h3>Price: 5 crore</h3></p>
+                <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/5bhk.jpg" width="185" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">5 BHK Apartment<br><h3>Price: 10 crore</h3></p>
+                <button onclick="document.getElementById('id03').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="rooms">
+        <h1 style="color:black;text-align:center;">Rent</h1>
+        <div class="block1">
+            <div class="img"><img src="img/3-bedroom-layout.png" width="185px" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">3 BHK Apartment<br><h3>Price: 3 Lakhs/month</h3></p>
+                <button onclick="document.getElementById('id04').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/apartment-layouts.jpeg" width="185px"></div>
+            <div class="details">
+                <p style="font-family:Arial;">4 BHK Apartment<br><h3>Price: 5 Lakhs/month</h3></p>
+                <button onclick="document.getElementById('id05').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/5bhk.jpg" width="185" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">5 BHK Apartment<br><h3>Price: 10 crore/month</h3></p>
+                <button onclick="document.getElementById('id06').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="id01" class="modal ">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">Multistorey apartment is available to buy. It has covered area 3300 sq-ft. Please register now for more details.</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>₹3.5 crore</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Security Deposit:</td>
+                    <td>₹ 15.0 Lac</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Flooring:</td>
+                    <td> Marble</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Furnishing:</td>
+                    <td>Semi-Furnished</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            <col width="250">
+                            <col width="250">
+                            <col width="250">
+                            <tr>
+                                <td> Laundry Service</td>
+                                <td>Visitor Parking</td>
+                                <td>Service/Goods Lift</td>
+                            </tr>
+                            <tr>
+                                <td> Water Storage</td>
+                                <td>Gymnasium</td>
+                                <td>Kids Play Area</td>
+                            </tr>
+                            <tr>
+                                <td>Reserved Parking</td>
+                                <td>DTH Television Facility</td>
+                                <td>Swimming Pool</td>
+                            </tr>
+                            <tr>
+                                <td>Flower Gardens</td>
+                                <td> Fire Fighting Equipment</td>
+                                <td>Lift</td>
+                            </tr>
+                            <tr>
+                                <td>Banquet</td>
+                                <td>HallClub House</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="registration.html"><button>Register Now</button></a>
+        </div>
+    </div>
+    <div id="id02" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">Multistorey apartment is available to buy. It has covered area 4000 sq-ft. Please register now for more details.</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>₹5 crore</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Security Deposit:</td>
+                    <td>₹ 20.0 Lac</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Flooring:</td>
+                    <td> Marble</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Furnishing:</td>
+                    <td>Fully-Furnished</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            <col width="250">
+                            <col width="250">
+                            <col width="250">
+                            <tr>
+                                <td> Laundry Service</td>
+                                <td>Visitor Parking</td>
+                                <td>Service/Goods Lift</td>
+                            </tr>
+                            <tr>
+                                <td> Water Storage</td>
+                                <td>Gymnasium</td>
+                                <td>Kids Play Area</td>
+                            </tr>
+                            <tr>
+                                <td>Reserved Parking</td>
+                                <td>DTH Television Facility</td>
+                                <td>Swimming Pool</td>
+                            </tr>
+                            <tr>
+                                <td>Flower Gardens</td>
+                                <td> Fire Fighting Equipment</td>
+                                <td>Lift</td>
+                            </tr>
+                            <tr>
+                                <td>Banquet</td>
+                                <td>HallClub House</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="registration.html"><button>Register Now</button></a>
+        </div>
+    </div>
+    <div id="id03" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">Multistorey apartment is available to buy. It has covered area 5000 sq-ft. Please register now for more details.</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>₹10 crore</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Security Deposit:</td>
+                    <td>₹ 50.0 Lac</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Flooring:</td>
+                    <td>Italian Marble</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Furnishing:</td>
+                    <td>Fully-Furnished</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            <col width="250">
+                            <col width="250">
+                            <col width="250">
+                            <tr>
+                                <td> Laundry Service</td>
+                                <td>Visitor Parking</td>
+                                <td>Service/Goods Lift</td>
+                            </tr>
+                            <tr>
+                                <td> Water Storage</td>
+                                <td>Gymnasium</td>
+                                <td>Kids Play Area</td>
+                            </tr>
+                            <tr>
+                                <td>Reserved Parking</td>
+                                <td>DTH Television Facility</td>
+                                <td>Swimming Pool</td>
+                            </tr>
+                            <tr>
+                                <td>Flower Gardens</td>
+                                <td> Fire Fighting Equipment</td>
+                                <td>Lift</td>
+                            </tr>
+                            <tr>
+                                <td>Banquet</td>
+                                <td>HallClub House</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="registration.html"><button>Register Now</button></a>
+        </div>
+    </div>
+    <div id="id04" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">Multistorey apartment is available to buy. It has covered area 3300 sq-ft. Please register now for more details.</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>₹3 Lakhs/month</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Security Deposit:</td>
+                    <td>₹ 15.0 Lac</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Flooring:</td>
+                    <td> Marble</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Furnishing:</td>
+                    <td>Semi-Furnished</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            <col width="250">
+                            <col width="250">
+                            <col width="250">
+                            <tr>
+                                <td> Laundry Service</td>
+                                <td>Visitor Parking</td>
+                                <td>Service/Goods Lift</td>
+                            </tr>
+                            <tr>
+                                <td> Water Storage</td>
+                                <td>Gymnasium</td>
+                                <td>Kids Play Area</td>
+                            </tr>
+                            <tr>
+                                <td>Reserved Parking</td>
+                                <td>DTH Television Facility</td>
+                                <td>Swimming Pool</td>
+                            </tr>
+                            <tr>
+                                <td>Flower Gardens</td>
+                                <td> Fire Fighting Equipment</td>
+                                <td>Lift</td>
+                            </tr>
+                            <tr>
+                                <td>Banquet</td>
+                                <td>HallClub House</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="registration.html"><button>Register Now</button></a>
+        </div>
+    </div>
+    <div id="id05" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">Multistorey apartment is available to buy. It has covered area 4000 sq-ft. Please register now for more details.</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>₹5 Lakhs/month</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Security Deposit:</td>
+                    <td>₹ 15.0 Lac</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Flooring:</td>
+                    <td> Marble</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Furnishing:</td>
+                    <td>Semi-Furnished</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            <col width="250">
+                            <col width="250">
+                            <col width="250">
+                            <tr>
+                                <td> Laundry Service</td>
+                                <td>Visitor Parking</td>
+                                <td>Service/Goods Lift</td>
+                            </tr>
+                            <tr>
+                                <td> Water Storage</td>
+                                <td>Gymnasium</td>
+                                <td>Kids Play Area</td>
+                            </tr>
+                            <tr>
+                                <td>Reserved Parking</td>
+                                <td>DTH Television Facility</td>
+                                <td>Swimming Pool</td>
+                            </tr>
+                            <tr>
+                                <td>Flower Gardens</td>
+                                <td> Fire Fighting Equipment</td>
+                                <td>Lift</td>
+                            </tr>
+                            <tr>
+                                <td>Banquet</td>
+                                <td>HallClub House</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="registration.html"><button>Register Now</button></a>
+        </div>
+    </div>
+    <div id="id06" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">Multistorey apartment is available to buy. It has covered area 4000 sq-ft. Please register now for more details.</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>₹10 Lakhs/month</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Security Deposit:</td>
+                    <td>₹ 15.0 Lac</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td> Flooring:</td>
+                    <td> Marble</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Furnishing:</td>
+                    <td>Semi-Furnished</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            <col width="250">
+                            <col width="250">
+                            <col width="250">
+                            <tr>
+                                <td> Laundry Service</td>
+                                <td>Visitor Parking</td>
+                                <td>Service/Goods Lift</td>
+                            </tr>
+                            <tr>
+                                <td> Water Storage</td>
+                                <td>Gymnasium</td>
+                                <td>Kids Play Area</td>
+                            </tr>
+                            <tr>
+                                <td>Reserved Parking</td>
+                                <td>DTH Television Facility</td>
+                                <td>Swimming Pool</td>
+                            </tr>
+                            <tr>
+                                <td>Flower Gardens</td>
+                                <td> Fire Fighting Equipment</td>
+                                <td>Lift</td>
+                            </tr>
+                            <tr>
+                                <td>Banquet</td>
+                                <td>HallClub House</td>
+
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="registration.html"><button>Register Now</button></a>
+        </div>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3><span>One Avighna Park</span></h3>
+
+            <p class="footer-links">
+                <a href="building.html">Home</a>
+                |
+                <a href="#about">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2019 Avighna India Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>
+                    <span>
+                        M. P. MARG, NEAR ITC,
+                        LOWER PAREL (E), MUMBAI-12
+                    </span>
+
+
+                </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 8235486494</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="www.gmail.com">oneavighnapark@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About</span>
+                Avighna India Ltd. is a leading real estate company in India. The group commands worldwide attention for continually setting new benchmarks in the premium niche market.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        // Get the modal
+        var modal = document.getElementById('id01');
+        var modal = document.getElementById('id02');
+        var modal = document.getElementById('id03');
+        var modal = document.getElementById('id04');
+        var modal = document.getElementById('id05');
+        var modal = document.getElementById('id06');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+

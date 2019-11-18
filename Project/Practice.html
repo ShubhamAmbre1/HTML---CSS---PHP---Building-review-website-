@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice</title>
+</head>
+<body>
+    <form name="alumini" onsubmit="return formValidation()">
+        <label>Name</label>
+        <input type="text" name="Name" size="12" /><br />
+
+        <label>Address</label>
+        <input type="text" name="Address" size="50" /><br />
+
+        <label>Dob</label>
+        <input type="date" name="Dob" /><br />
+
+        <label>Email</label>
+        <input type="text" name="Email" size="30" /><br />
+
+        <label>Hobbies</label>
+        <input type="checkbox" name="Hobbies" value="reading" />Reading<br />
+        <input type="checkbox" name="Hobbies" value="reading" />Writing<br />
+        <input type="checkbox" name="Hobbies" value="reading" />Playing<br />
+        <input type="checkbox" name="Hobbies" value="reading" />Dancing<br />
+
+        <label>Branch</label>
+        <input type="radio" name="branch" value="Inft" />INFT<br />
+        <input type="radio" name="branch" value="Inft" />CMPN<br />
+        <input type="radio" name="branch" value="Inft" />ETRX<br />
+
+        <button type="submit" >Submit</button>
+
+    </form>
+    <script type="text/javascript">
+        function formValidation() {
+            var x: Document.getElementById("Name");
+            
+
+            if (x = "") {
+                alert("Enter name");
+
+                return false;
+            }
+            if (y = "") {
+                alert("Enter address");
+                return false;
+            }
+            if (z = "") {
+                alert("Enter dob");
+                return false;
+            }
+            if (a = "") {
+                alert("Enter email");
+                return false;
+            }
+            if (b = "") {
+                alert("Enter hobbies");
+                return false;
+            }
+            if (c = "") {
+                alert("Enter branch");
+                return false;
+            }
+
+            if (Email.value.indexof("@", 0) < 0) {
+                window.alert("please")
+                email.focus();
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
